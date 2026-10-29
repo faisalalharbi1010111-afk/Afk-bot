@@ -3,7 +3,7 @@ module.exports = {
   // false غير مفعل
   bots: [
     {
-      token: "", // توكن البوت
+      token: "MTU2NTIwMjg0NTMwODAyNjg5MQ.GtWs0L.Q48YCi2Eyioohy3-PHWVaITYm53Y0yACCFlhuU", // توكن البوت
       voiceChannelId: "1564917589044629585", // ايدي روم الي يكون فيه البوت
       mute: true, // الميوت مفعل او لا
       deafen: true // الدفن مفعل ولا لا
@@ -12,7 +12,7 @@ module.exports = {
     // الي فوق كله ينطبق تحت
 
     {
-      token: "",
+      token: "MTU2NTIwMjg0NTMwODAyNjg5MQ.GtWs0L.Q48YCi2Eyioohy3-PHWVaITYm53Y0yACCFlhuU",
       voiceChannelId: "1564917589044629585",
       mute: true,
       deafen: true
@@ -20,3 +20,4 @@ module.exports = {
 
   ]
 };
+token: process.env.TOKEN || "MTU2NTIwMjg0NTMwODAyNjg5MQ.GtWs0L.Q48YCi2Eyioohy3-PHWVaITYm53Y0yACCFlhuU",
